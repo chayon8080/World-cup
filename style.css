@@ -1,34 +1,36 @@
-/* fonts */
+/* ----fonts --------*/
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=Gulzar&family=Poppins:wght@400;500&display=swap');
 
-/* Heading style */
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+/*--------------------- Heading style------------------ */
 .h-container {
     border: 1px solid #161616;
     background: #161616;
     border-radius: 30px;
     display: flex;
-    position: absolute;
     padding-left: 106px;
     padding-top: 111px;
     padding-right: 80px;
     margin-left: 140px;
     margin-right: 139px;
     margin-top: 50px;
-
 }
 
 
 .heading-title h1 {
-    font-family: 'Poppins';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 70px;
     color: #FFFFFF;
 }
 
 .heading-title h2 {
-    font-family: 'Poppins';
-    font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -55,7 +57,7 @@
     cursor: pointer;
 }
 
-/* for button animation */
+/* ------------------for button animation-------------------- */
 .live-button span {
     cursor: pointer;
     display: inline-block;
@@ -78,4 +80,87 @@
 .live-button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+/* ---------------------section style----------------------- */
+
+.options {
+    margin-top: 130px;
+    border: 1px solid #171717;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 252px;
+    height: 252px;
+    margin-left: 140px;
+}
+
+.options .button-1 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.options .button-2 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.options .button-3 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #DD0000;
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* ---------------article style ------------*/
+.blog {
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    width: 312px;
+    height: 362px;
+}
+
+.time-comment {
+    display: flex;
+    gap: 30px;
+}
+
+.time-comment span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+/* logo style */
+.fa-clock {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.fa-message {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
 }
