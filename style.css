@@ -17,8 +17,9 @@ body {
     padding-top: 111px;
     padding-right: 80px;
     margin-left: 140px;
-    margin-right: 139px;
+    margin-right: 110px;
     margin-top: 50px;
+
 }
 
 
@@ -38,11 +39,11 @@ body {
 
 .heading-title {
     width: 100%;
-    margin-right: 24px;
 }
 
 .heading-image img {
     width: 110%;
+    margin-right: 79px;
 }
 
 .live-button {
@@ -83,9 +84,12 @@ body {
 }
 
 /* ---------------------section style----------------------- */
+.m-container {
+    display: flex;
+}
 
 .options {
-    margin-top: 130px;
+    margin-top: 140px;
     border: 1px solid #171717;
     background: #161616;
     border-radius: 10px;
@@ -95,6 +99,7 @@ body {
     width: 252px;
     height: 252px;
     margin-left: 140px;
+    margin-right: 24px;
 }
 
 .options .button-1 {
@@ -106,6 +111,9 @@ body {
     border-radius: 10px;
     font-weight: 500px;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
 }
 
 .options .button-2 {
@@ -115,8 +123,11 @@ body {
     top: 950px;
     background: #FFFFFF;
     border-radius: 10px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
 }
 
 .options .button-3 {
@@ -129,14 +140,25 @@ body {
     font-weight: 500px;
     font-size: 20px;
     color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
 }
 
 /* ---------------article style ------------*/
+.a-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 140px;
+}
+
 .blog {
     border: 0.5px solid lightgray;
     border-radius: 5px;
     width: 312px;
     height: 362px;
+    margin-right: 24px;
+    margin-bottom: 35px;
 }
 
 .time-comment {
@@ -163,4 +185,42 @@ body {
     height: 24px;
     background-color: #FFFFFF;
     margin-left: 10px;
+}
+
+/* ------------------------footer style----------------- */
+.foot {
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+}
+
+.foot h3 {
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.f-option {
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.fa-linkedin {
+    margin-left: -85px;
 }
