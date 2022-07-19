@@ -1,0 +1,81 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=Gulzar&family=Poppins:wght@400;500&display=swap');
+
+/* Heading style */
+.h-container {
+    border: 1px solid #161616;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+    padding-left: 106px;
+    padding-top: 111px;
+    padding-right: 80px;
+    margin-left: 140px;
+    margin-right: 139px;
+    margin-top: 50px;
+
+}
+
+
+.heading-title h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.heading-title h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.heading-title {
+    width: 100%;
+    margin-right: 24px;
+}
+
+.heading-image img {
+    width: 110%;
+}
+
+.live-button {
+    border: 1px solid red;
+    background: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* for button animation */
+.live-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.live-button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.live-button:hover span {
+    padding-right: 25px;
+}
+
+.live-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
