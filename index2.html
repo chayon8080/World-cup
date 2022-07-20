@@ -41,6 +41,23 @@
             font-size: 16px;
             color: #4D4D4D;
         }
+
+        /* ---------------------------------media query part of main css style------------------------- */
+        /* -----mobile view part of css style--------- */
+        @media only screen and (max-width:600px) {
+            .thumbnail img {
+                width: 129px;
+                height: 76.9px;
+            }
+        }
+
+        /* -----tablet view part of css style--------- */
+        @media only screen and (min-width:601px) and (max-width:1190px) {
+            .thumbnail img {
+                width: 129px;
+                height: 76.9px;
+            }
+        }
     </style>
 </head>
 
@@ -191,7 +208,7 @@
 
                     </div>
                 </article>
-
+                <a class="view-button" href="#">View all</a>
             </div>
         </section>
     </main>
