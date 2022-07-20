@@ -331,7 +331,7 @@ hr {
         left: 84px;
         top: 271px;
         margin-left: 50px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .m-container {
@@ -421,7 +421,7 @@ hr {
 
     .thumbnail img {
         width: 355px;
-        height: 187.9px;
+        height: 201.9px;
     }
 
     .time-comment {
@@ -575,6 +575,13 @@ hr {
         margin-top: 24px;
         margin-left: 50px;
         margin-right: 20px;
+    }
+
+    .blog {
+        width: 357px;
+        height: 414.21px;
+        left: 427px;
+        top: 612px;
     }
 
     .thumbnail img {
