@@ -96,11 +96,14 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    width: 252px;
-    height: 252px;
+    width: 312px;
+    height: 312px;
     margin-left: 140px;
     margin-right: 24px;
+    align-items: center;
+    padding: 30px;
 }
+
 
 .options .button-1 {
     width: 252px;
@@ -145,6 +148,52 @@ body {
     padding-top: 17px;
 }
 
+/* -- style for button in options second webpage  -- */
+
+.options .button-10 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #DD0000;
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
+    display: ;
+}
+
+.options .button-20 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.options .button-30 {
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
+}
+
 /* ---------------article style ------------*/
 .a-container {
     display: grid;
@@ -172,6 +221,21 @@ body {
     color: rgba(22, 22, 22, 0.7);
 }
 
+/* view-all button only for tablet media */
+.view-button {
+    border: 1px solid red;
+    width: 131px;
+    height: 47px;
+    left: 352px;
+    background: #DD0000;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-left: 100px;
+    display: none;
+}
+
 /* logo style */
 .fa-clock {
     width: 24px;
@@ -190,7 +254,7 @@ body {
 /* ------------------------footer style----------------- */
 .foot {
     background-color: #161616;
-    width: 1600px;
+    width: 1700px;
     height: 444px;
 }
 
@@ -223,4 +287,316 @@ hr {
 
 .fa-linkedin {
     margin-left: -85px;
+}
+
+/* ---------------------media query-------------- */
+/* ----mobile view--- */
+@media only screen and (max-width:600px) {
+    .h-container {
+        border: 1px solid #161616;
+        margin-left: 21px;
+        margin-right: 20px;
+        margin-top: 50px;
+        height: 472px;
+        left: 21px;
+        top: 44px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .heading-title h1 {
+        width: 228px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
+    .heading-title h2 {
+        width: 258px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+
+    .heading-image img {
+        width: 233px;
+        height: 245px;
+        left: 84px;
+        top: 271px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .m-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options {
+        margin-top: 140px;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        width: 312px;
+        height: 312px;
+        margin-left: 83px;
+        margin-right: 82px;
+        align-items: center;
+        padding: 30px;
+    }
+
+
+    .options .button-1 {
+        width: 252px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 500px;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+    }
+
+    .options .button-2 {
+        width: 252px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+    }
+
+    .options .button-3 {
+        width: 252px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        background: #DD0000;
+        border-radius: 10px;
+        font-weight: 500px;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+    }
+
+
+    .a-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .thumbnail img {
+        width: 335px;
+        height: 187.9px;
+    }
+
+
+    .foot {
+        background-color: #161616;
+        width: 475px;
+        height: 900px;
+        margin-left: 20px;
+
+    }
+
+    .footer-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+/* ---tablet-view--- */
+@media only screen and (min-width:601px) and (max-width:1190px) {
+    body {
+        width: 477px;
+    }
+
+    .h-container {
+        border: 1px solid #161616;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 50px;
+        width: 734px;
+        height: 398px;
+        left: 21px;
+        top: 44px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .heading-title h1 {
+        width: 228px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
+    .heading-title h2 {
+        width: 258px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+
+    .heading-image img {
+        width: 323px;
+        height: 340px;
+        left: 84px;
+        top: 271px;
+        margin-left: 50px;
+        margin-top: 30px;
+        padding-right: -17px;
+    }
+
+    .m-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options {
+        margin-top: 140px;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        row-gap: 22px;
+        width: 312px;
+        height: 312px;
+        margin-left: 83px;
+        margin-right: 82px;
+        align-items: center;
+        padding: 30px;
+    }
+
+
+    .options .button-1 {
+        width: 230px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 500px;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+        margin-right: 22px;
+        margin-left: -50px;
+    }
+
+    .options .button-2 {
+        width: 230px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+        margin-right: 22px;
+    }
+
+    .options .button-3 {
+        width: 230px;
+        height: 64px;
+        left: 170px;
+        top: 950px;
+        background: #DD0000;
+        border-radius: 10px;
+        font-weight: 500px;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 17px;
+        margin-right: 22px;
+    }
+
+    .a-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 24px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+    .thumbnail img {
+        width: 335px;
+        height: 187.9px;
+    }
+
+    .view-button {
+        border: 1px solid red;
+        width: 131px;
+        height: 47px;
+        left: 352px;
+        background: #DD0000;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        margin-left: 100px;
+        display: block;
+        margin-top: 500px;
+        margin-left: -200px;
+    }
+
+    .foot {
+        background-color: #161616;
+        width: 834px;
+        height: 370px;
+        margin-left: 20px;
+
+    }
+
+    .footer-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+
 }
