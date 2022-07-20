@@ -353,6 +353,8 @@ hr {
         margin-right: 82px;
         align-items: center;
         padding: 30px;
+        margin-left: -2px;
+
     }
 
 
@@ -410,9 +412,20 @@ hr {
         margin-right: 20px;
     }
 
+    .blog {
+        width: 357px;
+        height: 388.69px;
+        left: 427px;
+        top: 612px;
+    }
+
     .thumbnail img {
-        width: 335px;
+        width: 355px;
         height: 187.9px;
+    }
+
+    .time-comment {
+        margin-top: -20px;
     }
 
 
@@ -428,6 +441,7 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: -100px;
     }
 
 
@@ -486,6 +500,7 @@ hr {
     .m-container {
         display: flex;
         flex-direction: column;
+        margin-right: 50px;
     }
 
     .options {
@@ -565,6 +580,10 @@ hr {
     .thumbnail img {
         width: 335px;
         height: 187.9px;
+    }
+
+    .time-comment {
+        margin-top: -20px;
     }
 
     .view-button {
